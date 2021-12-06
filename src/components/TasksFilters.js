@@ -11,7 +11,7 @@ const FiltersContainer = styled.div`
 `;
 
 const ControlContainer = styled.div`
-  background-color: #FBFFE2;
+  background-color: #B8E4F0;
   border-radius: 5px;
   padding: 10px;
 `;

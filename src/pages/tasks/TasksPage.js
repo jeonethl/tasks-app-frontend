@@ -18,16 +18,17 @@ const TasksWrapper = styled.div`
 const TasksHeader = styled.div`
   display: flex;
   justify-content: center;
-  border-bottom: 4px solid #FF9999;
+  border-bottom: 4px solid #6E3CBC;
 `;
 
 const Title = styled.h1`
   width: 100%;
-  color: #FF9999;
+  color: #6E3CBC;
 `;
 
 const CreateButtonContainer = styled.div`
   width: 100%;
+  color: #6E3CBC;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -38,7 +39,7 @@ const TasksContainer = styled.div`
 `;
 
 const EmptyTasksPlaceholder = styled.p`
-  color: #FF9999;
+  color: #6E3CBC;
   text-align: center;
   font-size: 22px;
 `;
@@ -47,7 +48,7 @@ const SignOutIconContainer = styled.div`
   margin-left: 10px;
   
   .signOutIcon {
-    fill: #FFAFAF;
+    fill: #6E3CBC;
   }
 `;
 
@@ -93,6 +94,7 @@ class TasksPage extends Component {
             <Fab
               variant="extended"
               onClick={() => { window.location.hash = '/tasks/create'; }}
+
             >
               <AddIcon />
               Create Task
@@ -111,7 +113,7 @@ class TasksPage extends Component {
         <TasksContainer>
           {this.renderTasks()}
         </TasksContainer>
-      </TasksWrapper>
+      </TasksWrapper >
     );
   }
 }

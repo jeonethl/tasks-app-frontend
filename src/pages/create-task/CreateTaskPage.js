@@ -79,7 +79,7 @@ class CreateTaskPage extends Component {
             style={{ marginTop: '10px' }}
             fullWidth
             variant="contained"
-            color="#FFAFAF"
+            color="primary"
             onClick={this.handleSubmitTask}
           >
             CREATE TASK
